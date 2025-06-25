@@ -1,0 +1,15 @@
+.hero_title {
+  font-size: 5rem;              /* Tailwind text-8xl = 6rem */
+  font-weight: 700;             /* Tailwind font-extrabold */
+  letter-spacing: 0.007em;       /* Tailwind tracking-wide = 0.05em */
+  color: #fff;                  /* Tailwind text-white */
+  text-wrap: balance;  
+           /* Tailwind text-balance (if supported) */
+}
+
+.heroContainer {
+  max-width: 48rem;            /* max-w-3xl = 48rem = 768px */
+  padding-top: 15px;           /* py-32 = 8rem = 128px */
+  padding-bottom: 9rem;
+  padding-left: 2.5rem;
+}

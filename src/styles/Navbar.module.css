@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f172a;
+  padding: 4rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navlink {
+  display: flex;
+  color: white;
+  /* gap: 5rem; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navLinks li a:hover {
+  color: #38bdf8;
+}
+
+
+.tex{
+  font-family: "Montserrat", sans-serif;
+  max-width: 1450px;      /* or any width you prefer */
+  margin: 0 auto;         /* center the container */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* space between moon and nav links */
+  padding: 0 2rem;        /* reduce horizontal padding */
+  width: 100%;
+}
