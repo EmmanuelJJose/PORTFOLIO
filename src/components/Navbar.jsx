@@ -32,7 +32,7 @@ function NavScrollExample() {
             <Container fluid className={styles.tex}>
                 <button
                     type="button"
-                    className="text-sm tablet:text-base p-4 laptop:p-2 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-600 text-white hover:scale-105 active:scale-100 tablet:first:ml-0"
+                    className="text-sm tablet:text-base p-3 laptop:p-2 m-1 laptop:m-2 rounded-lg flex items-center transition-all ease-out duration-300 hover:bg-slate-600 text-white hover:scale-105 active:scale-100 tablet:first:ml-0"
                 >
                     <img className="h-8" src="https://react-portfolio-template.netlify.app/images/moon.svg" alt="Toggle dark mode" />
                 </button>
